@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Merriweather:wght@300;400;700;900&display=swap');
+
+
 /* 
 fonts
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+
  */
 
 /* 
  colors
+#202020 #24bff2 #fff #F5FBFE
+
+Farbe social media: #3b5998 #fcaf45 #55acee #c4302b
   */
+
 
 /* general style */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {}
