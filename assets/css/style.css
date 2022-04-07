@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Merriweather:wght@300;400;700;900&display=swap');
 
-
 /* 
 fonts
 font-family: 'Lato', sans-serif;
@@ -16,6 +15,7 @@ Farbe social media: #3b5998 #fcaf45 #55acee #c4302b
 
 
 /* general style */
+
 * {
   padding: 0;
   margin: 0;
@@ -26,14 +26,18 @@ html {
   font-size: 10px;
 }
 
-body {
+/* body {
   background-color: #F5FBFE;
-}
+} */
 
 h2 {
   font-family: 'Merriweather', serif;
   font-size: 5em;
   color: #202020;
+}
+
+* article {
+  margin: 4em 0;
 }
 
 article p {
@@ -62,7 +66,6 @@ header a {
   color: #202020;
   margin: 1em 1.45em 0em 0em;
 }
-
 
 /* section absurd */
 section {
@@ -114,9 +117,9 @@ section button:last-of-type {
 }
 
 /* section real beauty */
-div .beautysection {
+.beautysection {
   position: relative;
-  background: #202020;
+  margin-bottom: 5em;
 }
 
 div .beautyaside {
@@ -141,10 +144,36 @@ div .beautyimg img {
   left: 50%;
 }
 
-
-
 /* section expressiveness */
+.expressivenesssection {
+  margin-bottom: 20em;
+}
+
 /* section illustrations */
+.illustrations {
+  text-align: center;
+}
+
+.illustrations img {
+  width: 30%;
+  margin: 5em 2em;
+}
+
 /* section examples */
+/* centered with class="illustrations" */
+.examples img {
+  text-align: center;
+  width: 43%;
+  margin: 2em 4em;
+}
+
 /* section 6 pictures */
+/* class="illustrations" copied, varied and enlarged */
+
+/*   <!-- section download --> */
+.margincontainer {
+  margin-bottom: 10em;
+}
+
+/* <!-- section membership --> */
 /* footer*/
