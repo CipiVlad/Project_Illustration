@@ -123,7 +123,6 @@ section button:last-of-type {
 }
 
 div .beautyaside {
-  /* background: yellow; */
   position: relative;
   width: 50%;
   display: inline-block;
@@ -131,7 +130,6 @@ div .beautyaside {
 }
 
 div .beautyimg img {
-  /* background: yellow; */
   position: relative;
   width: 35%;
   display: inline-block;
@@ -176,4 +174,78 @@ div .beautyimg img {
 }
 
 /* <!-- section membership --> */
+
+main div:nth-of-type(2) {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  width: 22%;
+  background: #F5FBFE;
+  padding-top: 4em;
+  margin: 6em auto;
+  border: 1px solid #dfe5e9bc;
+  border-radius: 1em;
+}
+
+main div:nth-of-type(2) h3 {
+  font-size: 2em;
+}
+
+main div:nth-of-type(2) h4 {
+  font-size: 5em;
+  margin: 0.9em 0;
+}
+
+main div:nth-of-type(2) h5 {
+  font-size: em;
+}
+
+main div:nth-of-type(2) p {
+  font-size: 1.6em;
+}
+
+main div:nth-of-type(2) button {
+  padding: 1em 3em;
+  margin-bottom: 2em;
+  background: #24bff2;
+  color: #fff;
+  border-radius: 0.5em;
+}
+
 /* footer*/
+
+footer {
+  text-align: center;
+  margin: 5em 0 2em 0;
+}
+
+footer h2 {
+  margin-bottom: 1em;
+}
+
+footer nav ul li,
+footer div {
+  display: inline;
+  line-height: 2em;
+  font-size: 2em;
+}
+
+footer nav ul li:first-child {
+  color: #2020205a;
+}
+
+footer nav ul li:last-child {
+  color: #2020205a;
+}
+
+footer nav ul li a {
+  display: block;
+}
+
+footer div p {
+  text-decoration: none;
+  color: #202020;
+  display: inline-block;
+}
+
+/*Farbe social media: #3b5998 #fcaf45 #55acee #c4302b
+  */
