@@ -5,7 +5,6 @@
 fonts
 font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
-
  */
 
 /* 
@@ -23,10 +22,103 @@ Farbe social media: #3b5998 #fcaf45 #55acee #c4302b
   box-sizing: border-box;
 }
 
-html {}
+html {
+  font-size: 10px;
+}
 
-body {}
+body {
+  background-color: #F5FBFE;
+}
 
-/* header */
-/*  main*/
-/*  footer*/
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 5em;
+  color: #202020;
+}
+
+article p {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+/* header nav bar*/
+header {
+  text-align: right;
+}
+
+nav ul li {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+}
+
+header a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: #202020;
+  margin: 1em 1.45em 0em 0em;
+}
+
+
+/* section absurd */
+section {
+  position: relative;
+  /* background: #202020; */
+}
+
+section aside {
+  /* background: burlywood; */
+  display: inline-block;
+  position: absolute;
+  top: 15em;
+  left: 10em;
+}
+
+section div {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  postion: absolute;
+  left: 50%;
+}
+
+section div img {
+  margin-left: 100px;
+  width: 80%;
+  display: inline-block;
+}
+
+/* section absurd buttons  */
+
+section button {
+  font-family: 'Merriweather', serif;
+  margin: 1em 0;
+  font-size: 1.4em;
+  padding: 10px 18px;
+  border-radius: 0.4em;
+  border-style: none;
+}
+
+section button:first-of-type {
+  color: #fff;
+  background: #202020;
+  margin-right: 10px;
+}
+
+section button:last-of-type {
+  color: #202020;
+}
+
+/* section expressiveness */
+
+/* section real beauty */
+
+
+/* section illustrations */
+/* section examples */
+/* section 6 pictures */
+/* footer*/
