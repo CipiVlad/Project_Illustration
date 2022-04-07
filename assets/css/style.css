@@ -113,11 +113,37 @@ section button:last-of-type {
   color: #202020;
 }
 
-/* section expressiveness */
-
 /* section real beauty */
+div .beautysection {
+  position: relative;
+  background: #202020;
+}
+
+div .beautyaside {
+  /* background: yellow; */
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  postion: absolute;
+}
+
+div .beautyimg img {
+  /* background: yellow; */
+  position: relative;
+  width: 35%;
+  display: inline-block;
+  left: 10em;
+}
+
+.beautyaside {
+
+  top: 45em;
+  left: 50%;
+}
 
 
+
+/* section expressiveness */
 /* section illustrations */
 /* section examples */
 /* section 6 pictures */
