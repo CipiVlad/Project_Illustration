@@ -24,11 +24,8 @@ Farbe social media: #3b5998 #fcaf45 #55acee #c4302b
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
-
-/* body {
-  background-color: #F5FBFE;
-} */
 
 h2 {
   font-family: 'Merriweather', serif;
@@ -67,6 +64,10 @@ header a {
   margin: 1em 1.45em 0em 0em;
 }
 
+header a:hover {
+  text-decoration: underline burlywood;
+}
+
 /* section absurd */
 section {
   position: relative;
@@ -74,7 +75,7 @@ section {
 }
 
 section aside {
-  /* background: burlywood; */
+
   display: inline-block;
   position: absolute;
   top: 15em;
@@ -114,6 +115,12 @@ section button:first-of-type {
 
 section button:last-of-type {
   color: #202020;
+  padding: 11px 20px;
+
+}
+
+section button:hover {
+  color: burlywood;
 }
 
 /* section real beauty */
@@ -247,5 +254,26 @@ footer div p {
   display: inline-block;
 }
 
-/*Farbe social media: #3b5998 #fcaf45 #55acee #c4302b
-  */
+footer div p:first-child::before {
+  content: '.';
+  color: #3b5898;
+  font-size: 2em;
+}
+
+footer div p:nth-child(2)::before {
+  content: '.';
+  color: #fcaf45;
+  font-size: 2em;
+}
+
+footer div p:nth-child(3)::before {
+  content: '.';
+  color: #55acee;
+  font-size: 2em;
+}
+
+footer div p:last-child::before {
+  content: '.';
+  color: #c4302b;
+  font-size: 2em;
+}
